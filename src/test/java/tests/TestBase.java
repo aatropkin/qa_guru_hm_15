@@ -21,6 +21,7 @@ public class TestBase {
         Configuration.browserSize = driverConfig.browserSize();
         Configuration.browser = driverConfig.browser();
         Configuration.remote = driverConfig.browserRemoteUrl();
+        Configuration.pageLoadStrategy = "normal";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
