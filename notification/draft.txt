@@ -1,0 +1,13 @@
+7030184453:AAHdp22qPiGAOXMiDJ_pHXQiuJpO7GhF_Uw
+@iyourallert_bot
+
+https://api.telegram.org/bot7030184453:AAHdp22qPiGAOXMiDJ_pHXQiuJpO7GhF_Uw/getUpdates
+
+-1002146458792
+
+
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1002146458792", "text": "This is a test"}' https://api.telegram.org/bot7030184453:AAHdp22qPiGAOXMiDJ_pHXQiuJpO7GhF_Uw/sendMessage
+
+
+curl -X POST -H "Content-Type:multipart/form-data" -F chat_id="-1002146458792" -F text="message" "https://api.telegram.org/bot7030184453:AAHdp22qPiGAOXMiDJ_pHXQiuJpO7GhF_Uw/sendMessage"
